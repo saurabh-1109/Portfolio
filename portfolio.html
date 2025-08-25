@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+<div class="box">
+    
+    <header>
+        <nav>
+            <div class="left">Portfolio.</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Project">Project</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <section id="Home"> 
+
+        <section class="firstsection">
+            <div class="leftsection">Hello & Welcome,<br>I am Saurabh Jha &<br>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="dv1.webp" alt="devloper image">
+            </div>
+        </section>   
+    </section>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['I will become a Web Developer very soon..'],
+            typeSpeed: 50,
+        });
+        </script>
+</div>
+
+<section id="Skills">
+<div class="box2">
+    <h2 style="text-decoration: underline;"> My Skills</h2><br>
+    <h6 id="para">Currently I am persuing Batchlor in Computer Application (BCA) and i am in second year. I Had learned progamming languages  like Html , CSS , javascript ,Python ,C and C++.<br>I have made several project using this languages.<br><br>Scroll Down  to see the Projects.
+    </h6>
+    <div class="box3">
+        <div class="img1"> 
+            <img src="logo_html.png" alt="html logo" >
+            </div>
+            <div class="img2">
+                <img src="css3-logo-png-transparent.png" alt="css logo" >
+            </div>
+            <div class="img3">
+                <img src="JavaScript-Logo-2048x1280.png" alt="javascript logo" >
+            </div>
+            <div class="img4">
+                <img src="Python-Logo-PNG-Image.png" alt="python logo" >
+            </div>
+            <div class="img5">
+                <img src="C++-PNG-Clipart.png" alt="python logo" >
+            </div>
+            <div class="img6">
+                <img src="C_Logo.png" alt="python logo" >
+            </div>
+        </div>
+        
+    </div>
+</div>
+</section>
+
+<section id="Project">
+
+    <div class="box4">
+        
+        <h1 class="h1">Projects</h1><br>
+        <h3 class="h3">Using [ Html , Css , javascript ]</h3>
+        <hr>
+        <div class="project">
+            
+            <div class="project1">
+                <h3>Rock-Paper-scissor</h3>
+                <img src="Screenshot 2024-08-30 145618.png">
+                
+                <button id="rps" onclick="openrps()">play Now</button>
+            </div>
+            <div class="project1">
+                <div class="project1">
+                    <h3>Tic-Tak-Toe</h3>
+                    <img src="Screenshot 2024-08-31 132656.png">
+                    
+                    <button id="TTT" onclick="openttt()">play Now</button>
+                </div>
+                
+            </div>
+            <div class="project1">
+                <h3>Calculator</h3>
+                <img src="Screenshot 2024-08-31 145443.png" alt="Calculator img">
+                
+                <button id="cal" onclick="opencal()">Try it</button>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <h3 class="h3">Using [C++ , Python]</h3>
+        <br>
+        <hr>
+        <div class="project">
+            
+            <div class="project1">
+                <h3>Factorial Calculator(c++)</h3>
+                <img src="Screenshot 2024-09-01 133448.png">
+            </div>
+            <div class="project1">
+                <div class="project1">
+                    <h3>Interest Calculator(c++)</h3>
+                    <img src="Screenshot 2024-09-01 133647.png">
+                </div>
+                
+            </div>
+            <div class="project1">
+                <h3>Rock-Paper-scissor(py)</h3>
+                <img src="Screenshot 2024-09-01 134018.png" alt="Calculator img">
+            </div>
+        </div>
+        <br>
+    </div>
+</section>
+
+<section id="About">
+
+    <div class="box5">
+        
+        <h4>Email : Saurabhjha8355@gmail.com</h4>
+        <h5 class="h5">Thank your for visiting <br>
+            All Rights Reserved to Saurabh Jha</h5>
+        </div>
+</section>
+<script>
+
+ function openrps(){
+    window.location.href="rock-paper game/rock.html";
+ }
+ function openttt(){
+    window.location.href="tic-tak-toe/tic-tak.html";
+ }
+ function opencal(){
+    window.location.href="calcu_project/cal.html";
+ }
+
+ 
+</script>
+</body>
+  </html>
