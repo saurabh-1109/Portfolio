@@ -1,1 +1,2 @@
 # Portfolio
+is is a personal portfolio website that introduces Saurabh Jha, a BCA student, highlighting his skills in HTML, CSS, JavaScript, Python, C, and C++. The website features a "Projects" section that displays various creations, including web-based games like Rock-Paper-Scissors and Tic-Tac-Toe, a Calculator, and console-based applications like Factorial Calculator and Interest Calculator, built with a mix of web technologies, C++, and Python. The site also includes an "About" section with contact information.
